@@ -24,7 +24,9 @@ module.exports = {
     alias: {
       Main:path.resolve(process.cwd(), 'app/components/Main.jsx'),
       applicationStyles: path.resolve(process.cwd(),'app/styles/app.scss'),
-      Nav: path.resolve(process.cwd(), 'app/components/Nav.jsx')
+      Nav: path.resolve(process.cwd(), 'app/components/Nav.jsx'),
+      Timer: path.resolve(process.cwd(), 'app/components/Timer.jsx'),
+      Countdown: path.resolve(process.cwd(), 'app/components/Countdown.jsx')
     },
     extensions: ['', '.js', '.jsx']
   },
